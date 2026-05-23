@@ -1,0 +1,210 @@
+aid: helsing
+name: Helsing
+description: Helsing SE is a Munich-based European defense AI company founded in March 2021 by Torsten Reil, Gundbert Scherf,
+  and Niklas Köhler. Helsing builds AI software and autonomous weapons systems for European and allied militaries — reconnaissance-strike
+  software (Altra), electronic-warfare AI (Cirra), an AI fighter pilot (Centaur), loitering-munition strike drones (HF-1
+  and HX-2), an autonomous combat aircraft (CA-1 Europa), and underwater autonomy (Lura acoustic processing, SG-1 Fathom
+  long-endurance underwater drones). The company is sales-led and government-restricted; there is no public REST API or developer
+  portal. This profile documents the publicly visible product surfaces and partnerships rather than endpoint shapes. Funding
+  totals roughly €1.37B across four rounds, with a $1.2B Series E at an $18B valuation reportedly being finalized as of May
+  2026. Daniel Ek's Prima Materia is the largest shareholder. Public partnerships include Saab (Gripen E integration of Centaur,
+  including the 2025 Project Beyond combat trial), Airbus, Rheinmetall, the Bundeswehr, and the Eurofighter Typhoon EK programme.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Defense AI
+- European Defense
+- Autonomy
+- Loitering Munitions
+- Underwater Autonomy
+- Electronic Warfare
+- AI Fighter Pilot
+- Sovereign AI
+url: https://raw.githubusercontent.com/api-evangelist/helsing/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+- aid: helsing:altra
+  name: Helsing Altra
+  description: Altra is Helsing's reconnaissance-strike software platform. It fuses multi-sensor and multi-drone data feeds
+    to cover wider areas, identify targets, and coordinate strikes. Altra is the AI layer that runs inside Helsing's drone
+    systems (HF-1, HX-2) and that integrates with allied platforms.
+  humanURL: https://helsing.ai/altra
+  tags:
+  - Reconnaissance
+  - Strike
+  - Multi-Sensor Fusion
+  - Software Platform
+  properties:
+  - type: Documentation
+    url: https://helsing.ai/altra
+- aid: helsing:centaur
+  name: Helsing Centaur
+  description: Centaur is Helsing's AI fighter pilot. It can function as an autonomous combat agent on board fighter jets,
+    operate independently or as part of a swarm, and integrate with allied airframes. In 2025 Helsing and Saab ran Project
+    Beyond — the first publicly known combat trial of AI piloting a fully operational fighter jet, with Centaur flying a
+    Gripen E in a beyond-visual-range engagement against a human-operated Gripen D. Centaur also flies on Helsing's own CA-1
+    Europa platform.
+  humanURL: https://helsing.ai
+  tags:
+  - AI Fighter Pilot
+  - Autonomy
+  - Air Combat
+  - Saab Gripen
+  properties:
+  - type: Documentation
+    url: https://helsing.ai
+- aid: helsing:cirra
+  name: Helsing Cirra
+  description: Cirra is Helsing's electronic-warfare AI for detecting, classifying, and responding to electromagnetic-spectrum
+    threats. It powers Helsing's contribution to programmes such as the Eurofighter Typhoon EK electronic-warfare variant.
+  humanURL: https://helsing.ai
+  tags:
+  - Electronic Warfare
+  - EW
+  - Signals
+  properties:
+  - type: Documentation
+    url: https://helsing.ai
+- aid: helsing:lura
+  name: Helsing Lura
+  description: Lura is Helsing's underwater AI. It rapidly processes acoustic data to detect and classify ships and submarines
+    while emitting significantly less noise than conventional sonar.
+  humanURL: https://helsing.ai
+  tags:
+  - Underwater Autonomy
+  - Acoustic Processing
+  - Anti-Submarine Warfare
+  properties:
+  - type: Documentation
+    url: https://helsing.ai
+- aid: helsing:hf-1
+  name: Helsing HF-1
+  description: HF-1 is an AI-enabled loitering-munition strike drone. It uses on-board AI and stored map data to navigate
+    and target without relying on GPS. HF-1 has been used by the Ukrainian government in its defence against the Russian
+    invasion of Ukraine.
+  humanURL: https://helsing.ai
+  tags:
+  - Loitering Munition
+  - Strike Drone
+  - GPS-Denied
+  properties:
+  - type: Documentation
+    url: https://helsing.ai
+- aid: helsing:hx-2
+  name: Helsing HX-2
+  description: HX-2 is Helsing's next-generation AI strike drone. Like HF-1 it operates without GPS and runs on-board target
+    recognition. HX-2 is manufactured at Helsing's factory in southern Germany.
+  humanURL: https://helsing.ai/hx-2
+  tags:
+  - Loitering Munition
+  - Strike Drone
+  - GPS-Denied
+  - Manufacturing
+  properties:
+  - type: Documentation
+    url: https://helsing.ai/hx-2
+- aid: helsing:ca-1-europa
+  name: Helsing CA-1 Europa
+  description: CA-1 Europa is Helsing's autonomous combat aircraft. It flies Centaur as its AI pilot and is targeted for first
+    flight in 2027.
+  humanURL: https://helsing.ai/europa
+  tags:
+  - Autonomous Combat Aircraft
+  - UCAV
+  - CA-1 Europa
+  properties:
+  - type: Documentation
+    url: https://helsing.ai/europa
+- aid: helsing:sg-1-fathom
+  name: Helsing SG-1 Fathom
+  description: SG-1 Fathom is Helsing's long-endurance underwater drone, capable of operating submerged for up to 90 days
+    and running Lura's acoustic-processing AI on board.
+  humanURL: https://helsing.ai
+  tags:
+  - Underwater Drone
+  - Long Endurance
+  - Anti-Submarine Warfare
+  properties:
+  - type: Documentation
+    url: https://helsing.ai
+common:
+- type: Portal
+  url: https://helsing.ai
+- type: Blog
+  url: https://helsing.ai/newsroom
+- type: Careers
+  url: https://helsing.ai/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/helsing-ai
+- type: Support
+  url: https://helsing.ai
+- type: Features
+  data:
+  - name: Altra Reconnaissance-Strike Software
+    description: Fuses multi-sensor and multi-drone data to identify targets and coordinate strikes across a wider area.
+  - name: Centaur AI Fighter Pilot
+    description: Autonomous combat agent for fighter aircraft, demonstrated in 2025's Project Beyond against a human-piloted
+      Gripen.
+  - name: Cirra Electronic Warfare AI
+    description: AI for detecting, classifying, and responding to electromagnetic-spectrum threats; integrated into the Eurofighter
+      Typhoon EK programme.
+  - name: Lura Underwater AI
+    description: Quiet acoustic processing for detection and classification of ships and submarines.
+  - name: HF-1 Loitering Munition
+    description: GPS-independent AI strike drone fielded in Ukraine.
+  - name: HX-2 Loitering Munition
+    description: Next-generation GPS-independent AI strike drone manufactured in southern Germany.
+  - name: CA-1 Europa Autonomous Combat Aircraft
+    description: Helsing's own UCAV platform flying Centaur, first flight targeted for 2027.
+  - name: SG-1 Fathom Underwater Drone
+    description: Long-endurance underwater drone capable of 90-day submerged operations running Lura on board.
+  - name: Sovereign European Defense AI
+    description: European-headquartered AI defense supplier serving Germany, France, the UK, Estonia, Ukraine, and allied
+      militaries.
+- type: UseCases
+  data:
+  - name: Sovereign European Air Combat AI
+    description: Provide Centaur AI fighter-pilot capability for European and allied air forces, including Saab Gripen and
+      Eurofighter programmes.
+  - name: Loitering Munition Strike
+    description: Deliver HF-1 and HX-2 GPS-independent strike drones to allied militaries and Ukraine.
+  - name: Electronic Warfare
+    description: Provide Cirra EW AI inside platforms such as the Eurofighter Typhoon EK.
+  - name: Underwater Surveillance and ASW
+    description: Run Lura acoustic processing on SG-1 Fathom and partner platforms for anti-submarine warfare.
+  - name: Reconnaissance-Strike Coordination
+    description: Use Altra to fuse multi-drone and multi-sensor feeds for targeting and strike coordination.
+- type: Integrations
+  data:
+  - name: Saab
+    description: Centaur integrated into the Saab Gripen E; 2025 Project Beyond combat trial.
+  - name: Eurofighter Typhoon EK
+    description: Helsing's AI (including Cirra) integrated into the Eurofighter Typhoon EK electronic-warfare variant.
+  - name: Airbus
+    description: Strategic partnership for European defense aerospace programmes.
+  - name: Rheinmetall
+    description: Industrial partnership inside Germany's defense base.
+  - name: Bundeswehr
+    description: Customer relationship with the German armed forces.
+  - name: Government of Ukraine
+    description: Operational user of HF-1 strike drones in the defence against Russia's invasion.
+- type: Investors
+  data:
+  - name: Prima Materia (Daniel Ek)
+    description: Largest shareholder, ~17% stake.
+  - name: Dragoneer Investment Group
+    description: Reported lead investor in the May 2026 $1.2B Series E at an $18B valuation.
+- type: Notes
+  data:
+  - name: No Public API
+    description: Helsing is sales-led and government-restricted. There is no public REST API, developer portal, OpenAPI spec,
+      or SDK; access is via direct government and prime-contractor relationships.
+  - name: Controversy
+    description: An April 2025 Bloomberg report surfaced allegations from former employees and military experts regarding
+      drone pricing and software reliability.
+maintainers:
+- FN: Kin Lane
+  url: http://apievangelist.com
+  email: kin@apievangelist.com
