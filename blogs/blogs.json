@@ -3,13 +3,10 @@
   "feeds": [
     {
       "source": "https://helsing.ai/newsroom",
-      "error": "HTTPError"
-    },
-    {
-      "source": "https://helsing.ai",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "HTTP 429 Too Many Requests on every fetch attempt"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:45:32Z",
+  "post_count": 0
 }
