@@ -130,6 +130,8 @@ apis:
   - type: Documentation
     url: https://helsing.ai
 common:
+- type: DomainSecurity
+  url: security/helsing-domain-security.yml
 - type: Portal
   url: https://helsing.ai
 - type: Blog
