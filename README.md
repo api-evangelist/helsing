@@ -1,4 +1,4 @@
-# helsing
+# Helsing
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Helsing — European AI defense software (Altra, Centaur)
+Helsing SE is a Munich-based European defense AI company founded in March 2021 by Torsten Reil, Gundbert Scherf, and Niklas Köhler. Helsing builds AI software and autonomous weapons systems for European and allied militaries — reconnaissance-strike software (Altra), electronic-warfare AI (Cirra), an AI fighter pilot (Centaur), loitering-munition strike drones (HF-1 and HX-2), an autonomous combat aircraft (CA-1 Europa), and underwater autonomy (Lura acoustic processing, SG-1 Fathom long-endurance underwater drones). The company is sales-led and government-restricted; there is no public REST API or developer portal. This profile documents the publicly visible product surfaces and partnerships rather than endpoint shapes. Funding totals roughly €1.37B across four rounds, with a $1.2B Series E at an $18B valuation reportedly being finalized as of May 2026. Daniel Ek's Prima Materia is the largest shareholder. Public partnerships include Saab (Gripen E integration of Centaur, including the 2025 Project Beyond combat trial), Airbus, Rheinmetall, the Bundeswehr, and the Eurofighter Typhoon EK programme.
+
+**Areas:** Defense AI · European Defense · Autonomy · Loitering Munitions · Underwater Autonomy · Electronic Warfare · AI Fighter Pilot · Sovereign AI
+
+## Helsing on APIs.io
+
+Everything profiled for Helsing is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/helsing/](https://apis.io/providers/helsing/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Helsing Altra](https://apis.io/apis/helsing/altra/) — Altra is Helsing's reconnaissance-strike software platform. It fuses multi-sensor and multi-drone data feeds to cover wider areas, identify targets, and…
+- [Helsing Centaur](https://apis.io/apis/helsing/centaur/) — Centaur is Helsing's AI fighter pilot. It can function as an autonomous combat agent on board fighter jets, operate independently or as part of a swarm, and…
+- [Helsing Cirra](https://apis.io/apis/helsing/cirra/) — Cirra is Helsing's electronic-warfare AI for detecting, classifying, and responding to electromagnetic-spectrum threats. It powers Helsing's contribution to…
+- [Helsing Lura](https://apis.io/apis/helsing/lura/) — Lura is Helsing's underwater AI. It rapidly processes acoustic data to detect and classify ships and submarines while emitting significantly less noise than…
+- [Helsing HF-1](https://apis.io/apis/helsing/hf-1/) — HF-1 is an AI-enabled loitering-munition strike drone. It uses on-board AI and stored map data to navigate and target without relying on GPS. HF-1 has been…
+- [Helsing HX-2](https://apis.io/apis/helsing/hx-2/) — HX-2 is Helsing's next-generation AI strike drone. Like HF-1 it operates without GPS and runs on-board target recognition. HX-2 is manufactured at Helsing's…
+- [Helsing CA-1 Europa](https://apis.io/apis/helsing/ca-1-europa/) — CA-1 Europa is Helsing's autonomous combat aircraft. It flies Centaur as its AI pilot and is targeted for first flight in 2027.
+- [Helsing SG-1 Fathom](https://apis.io/apis/helsing/sg-1-fathom/) — SG-1 Fathom is Helsing's long-endurance underwater drone, capable of operating submerged for up to 90 days and running Lura's acoustic-processing AI on board.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Helsing Domain Security](https://apis.io/security/helsing/helsing-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Helsing Plans Pricing](https://apis.io/plans/helsing/helsing-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Helsing Rate Limits](https://apis.io/rate-limits/helsing/helsing-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Helsing Finops](https://apis.io/finops/helsing/helsing-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://helsing.ai)
+- [Support](https://helsing.ai)
+- [Blog](https://helsing.ai/newsroom)
+
+## API Evangelist rating
+
+**Kin Score 10.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 17.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/helsing/](https://apis.io/providers/helsing/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Helsing: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/helsing/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
